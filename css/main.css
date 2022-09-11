@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 18px;
+    overflow-x: hidden;
+    font-family: 'Manrope', sans-serif;
+    background: #fff;
+    color: #121212;
+}
+
+._container {
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+.header {
+}
+.header-container {
+}
+.header-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.header-wrapper {
+    display: flex;
+}
+.header-logo {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Playfair Display', sans-serif;
+    font-style: italic;
+    margin-right: 132px;
+}
+.header-descriptions {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #898989;
+}
+.header-btn {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.header-btn:nth-child(1) {
+    margin-right: 40px;
+}
+.header-btn:hover {
+    color: #F97350;
+}
+
+
+
+.main {
+}
+.main-container {
+}
+.main-body {
+    margin-top: 55px;
+	 display: flex;
+}
+.main-wrapper {
+    display: flex;
+}
+.main-title {
+    font-weight: 500;
+    font-size: 76px;
+    line-height: 120%;
+    max-width: 620px;
+    margin-right: 245px;
+}
+.main-title span {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+.main-text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    max-width: 518px;
+    margin-top: 60px;
+}
+.main-wrapper:nth-child(1) {
+    margin-bottom: 48px;
+}
+.main-wrapper:nth-child(3) {
+    display: flex;
+    justify-content: center;
+}
+.main-arrow {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    user-select: none; 
+    transition: .5s ease;
+}
+.main-arrow img {
+    pointer-events: none;
+}
+
+.main-arrow:hover {
+    transform: translateY(5px);
+}
+
+
+
+.header-logo-template {
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 25px;
+	font-family: 'Manrope';
+	text-transform: uppercase;
+	margin-right: 162px;
+}
+
+
+
+.main-title-template {
+	font-weight: 500;
+	font-size: 76px;
+	line-height: 120%;
+	font-family: 'Manrope';
+	max-width: 315px;
+}
+.main-img-template {
+	margin-right: 117px;
+}
+.img-template {
+}
+.main-text-1 {
+	font-weight: 500;
+	font-size: 42px;
+	line-height: 120%;
+	color: #898989;
+	max-width: 565px;
+	float: right;
+	margin-bottom: 140px;
+}
+.main-text-2 {
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 120%;
+	max-width: 565px;
+	float: right;
+	margin-bottom: 134px;
+}
+.main-text-3 {
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 120%;
+	max-width: 565px;
+	float: right;
+}
+.main-block {
+}
+.main-body .main-wrapper {
+	display: flex;
+	flex-direction: column;
+}
