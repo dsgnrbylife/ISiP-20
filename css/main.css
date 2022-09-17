@@ -87,7 +87,7 @@ body {
    margin-right: 40px;
 }
 .header-wrapper a .header-btn {
-   margin-right: 0px;
+   margin-right: 40px;
 }
 .header-btn:hover {
    color: #F97350;
@@ -150,12 +150,12 @@ body {
 
 /* Heretics-template */
 .header-logo-template {
-	font-weight: 800;
-	font-size: 18px;
-	line-height: 25px;
-	font-family: 'Manrope';
-	text-transform: uppercase;
-	margin-right: 162px;
+	font-weight: 500;
+   font-size: 18px;
+   line-height: 24px;
+   font-family: 'Playfair Display', sans-serif;
+   font-style: italic;
+   margin-right: 132px;
 }
 
 .main-title-template {
@@ -352,13 +352,13 @@ body {
 	background: url(/source/heretics-17.jpg);
 }
 .heretics-item-wrapper:nth-child(4) .heretics-item:nth-child(3) .heretics-ava {
-	background: url(/source/heretics-18.jpg);
+	background: url(/source/rectangle.jpg);
 }
 .heretics-item-wrapper:nth-child(4) .heretics-item:nth-child(4) .heretics-ava {
-	background: url(/source/heretics-19.jpg);
+	background: url(/source/rectangle.jpg);
 }
 .heretics-item-wrapper:nth-child(4) .heretics-item:nth-child(5) .heretics-ava {
-	background: url(/source/heretics-20.jpg);
+	background: url(/source/rectangle.jpg);
 }
 
 
